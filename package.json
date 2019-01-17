@@ -1,0 +1,19 @@
+{
+  "name": "departure-board",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "dependencies": {
+    "zrender": "^4.0.5"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
+  }
+}
