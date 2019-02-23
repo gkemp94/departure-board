@@ -10,10 +10,8 @@ class Pixel extends zrender.Rect {
   }
 
   set(status) {
-    setTimeout(() => {
-      this.style.fill = status ? "#fded52" : "#383838";
-      this.dirty();
-    }, 10* this.y)
+    this.style.fill = status ? "#fded52" : "#383838";
+    this.dirty();
   }
 }
 
